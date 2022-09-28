@@ -4,7 +4,7 @@ Khmer utility functions
 
 ## Installation
 
-```
+```shell
 # pnpm
 pnpm add is-khmer
 
