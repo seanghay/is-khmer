@@ -1,7 +1,7 @@
 {
 	"name": "is-khmer",
 	"version": "0.0.0",
-	"description": "Check if a string is in Khmer language",
+	"description": "Khmer utility functions",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"browser": "./dist/index.mjs",

@@ -1,4 +1,4 @@
-A Khmer utility functions
+Khmer utility functions
 
 ## API
 
