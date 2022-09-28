@@ -1,5 +1,7 @@
 Khmer utility functions
 
+[![tests](https://github.com/seanghay/is-khmer/actions/workflows/tests.yml/badge.svg)](https://github.com/seanghay/is-khmer/actions/workflows/tests.yml)
+
 ## Installation
 
 ```
