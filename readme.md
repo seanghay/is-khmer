@@ -1,5 +1,28 @@
 Khmer utility functions
 
+## Installation
+
+```
+# pnpm
+pnpm add is-khmer
+
+# npm
+npm add is-khmer
+
+# yarn
+yarn add is-khmer
+```
+
+## Browser
+
+```js
+import { 
+	isKhmer, 
+	containsKhmer, 
+	parseKhmer 
+} from "https://unpkg.com/is-khmer"
+```
+
 ## API
 
 ### `isKhmer(text: string) => boolean`
