@@ -1,6 +1,6 @@
 {
 	"name": "is-khmer",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Khmer utility functions",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
