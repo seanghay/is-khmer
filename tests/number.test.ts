@@ -1,5 +1,5 @@
 import { expect, it, describe } from "vitest";
-import { isKhmerNumber, numberAsInteger } from "../src/index.js";
+import { isKhmerNumber, numberAsInteger } from "../src/mod.js";
 
 
 describe('numbers', () => {

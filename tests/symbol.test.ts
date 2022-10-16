@@ -1,5 +1,5 @@
 import { expect, it, describe } from "vitest";
-import { isKhmerSymbol } from "../src/index.js";
+import { isKhmerSymbol } from "../src/mod.js";
 
 describe("khmer symbols", () => {
 	it("should return true for khmer symbols", () => {

@@ -5,7 +5,7 @@ import {
 	isKhmerWithWhitespace,
 	parseKhmer,
 	isKhmerNumber,
-} from "../src/index.js";
+} from "../src/mod.js";
 
 describe("index.ts", () => {
 	it("should return false with ASCII", () => {

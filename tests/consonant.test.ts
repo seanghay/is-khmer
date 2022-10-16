@@ -1,5 +1,5 @@
 import { expect, it, describe } from "vitest";
-import { isKhmerConsonant } from "../src/index.js";
+import { isKhmerConsonant } from "../src/mod.js";
 
 describe("khmer consonants", () => {
   it('should true when testing against khmer char', () => {
