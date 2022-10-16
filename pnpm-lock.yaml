@@ -2113,8 +2113,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /tinybench/2.1.5:
-    resolution: {integrity: sha512-ak+PZZEuH3mw6CCFOgf5S90YH0MARnZNhxjhjguAmoJimEMAJuNip/rJRd6/wyylHItomVpKTzZk9zrhTrQCoQ==}
+  /tinybench/2.3.0:
+    resolution: {integrity: sha512-zs1gMVBwyyG2QbVchYIbnabRhMOCGvrwZz/q+SV+LIMa9q5YDQZi2kkI6ZRqV2Bz7ba1uvrc7ieUoE4KWnGeKg==}
     dev: true
 
   /tinypool/0.3.0:
@@ -2271,7 +2271,7 @@ packages:
       debug: 4.3.4
       local-pkg: 0.4.2
       strip-literal: 0.4.2
-      tinybench: 2.1.5
+      tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.1.3

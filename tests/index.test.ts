@@ -4,6 +4,7 @@ import {
 	isKhmer,
 	isKhmerWithWhitespace,
 	parseKhmer,
+	isKhmerNumber,
 } from "../src/index.js";
 
 describe("index.ts", () => {
@@ -18,7 +19,7 @@ describe("index.ts", () => {
 		expect(isKhmer("ដោយយល់ឃើញថា")).toBe(true);
 		expect(
 			isKhmerWithWhitespace(
-				"ដោយយល់ឃើញថា ការមិនទទួលស្គាល់ និងការប្រមាថមើលងាយសិទ្ធិមនុស្ស នាំឱ្យមានអំពើ ព្រៃផ្សៃសាហាវយង់ឃ្នង ធ្វើឱ្យក្ដៅក្រហាយដល់សតិសម្បជញ្ញៈមនុស្សជាតិ"
+				"ដោយយល់\tឃើញ\n\rថា ការមិនទទួលស្គាល់ និងការប្រមាថមើលងាយសិទ្ធិមនុស្ស នាំឱ្យមានអំពើ ព្រៃផ្សៃសាហាវយង់ឃ្នង ធ្វើឱ្យក្ដៅក្រហាយដល់សតិសម្បជញ្ញៈមនុស្សជាតិ"
 			)
 		).toBe(true);
 	});
